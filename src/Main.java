@@ -7,8 +7,9 @@ public class Main {
 	public static void main(String args[]){
 		
 		WordCounter wc = null;
+		
 		try {
-			wc = new WordCounter("C:\\Users\\HP Phoenix\\workspace\\Collections2\\src\\TheRaven.txt");
+			wc = new WordCounter("");//put url path
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
